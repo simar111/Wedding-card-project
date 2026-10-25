@@ -34,9 +34,9 @@ export function Hero() {
           align-items: center;
           justify-content: center;
 
-          background: #160609;
+          background: #100d18;
 
-          color: #f8ead0;
+          color: #fffaf5;
 
           isolation: isolate;
         }
@@ -102,11 +102,11 @@ export function Hero() {
           background:
             linear-gradient(
               180deg,
-              rgba(10, 2, 5, .76) 0%,
-              rgba(26, 6, 11, .3) 25%,
-              rgba(53, 12, 19, .08) 48%,
-              rgba(10, 2, 5, .42) 70%,
-              rgba(7, 1, 4, .9) 100%
+              rgba(16, 13, 24, .82) 0%,
+              rgba(43, 32, 56, .30) 25%,
+              rgba(89, 66, 103, .08) 48%,
+              rgba(16, 13, 24, .48) 70%,
+              rgba(13, 10, 20, .94) 100%
             );
         }
 
@@ -126,16 +126,16 @@ export function Hero() {
           background:
             radial-gradient(
               ellipse at 50% 43%,
-              rgba(184, 110, 63, .13),
+              rgba(196, 169, 215, .16),
               transparent 48%
             ),
 
             linear-gradient(
               90deg,
-              rgba(48, 8, 16, .38),
+              rgba(43, 32, 56, .40),
               transparent 35%,
               transparent 65%,
-              rgba(48, 8, 16, .38)
+              rgba(43, 32, 56, .40)
             );
 
           mix-blend-mode: color;
@@ -167,8 +167,8 @@ export function Hero() {
           background:
             radial-gradient(
               circle,
-              rgba(255, 220, 154, .12) 0%,
-              rgba(218, 166, 82, .06) 30%,
+              rgba(255, 250, 245, .14) 0%,
+              rgba(216, 188, 229, .07) 30%,
               transparent 70%
             );
 
@@ -247,14 +247,14 @@ export function Hero() {
 
           border-radius: 50%;
 
-          background: #e8c47e;
+          background: #d8bce5;
 
           box-shadow:
             0 0 7px
-            rgba(232, 196, 126, .9),
+            rgba(216, 188, 229, .9),
 
             0 0 16px
-            rgba(232, 196, 126, .25);
+            rgba(196, 169, 215, .28);
         }
 
 
@@ -273,7 +273,7 @@ export function Hero() {
 
           border:
             1px solid
-            rgba(235, 199, 128, .24);
+            rgba(216, 188, 229, .26);
         }
 
         .editorial-frame::before {
@@ -285,7 +285,7 @@ export function Hero() {
 
           border:
             1px solid
-            rgba(235, 199, 128, .07);
+            rgba(255, 250, 245, .08);
         }
 
 
@@ -300,7 +300,7 @@ export function Hero() {
           height: 45px;
 
           border-color:
-            rgba(235, 199, 128, .65);
+            rgba(216, 188, 229, .72);
         }
 
         .editorial-corner.tl {
@@ -357,7 +357,7 @@ export function Hero() {
 
           gap: 13px;
 
-          color: #e1bd76;
+          color: #d8bce5;
         }
 
         .editorial-top-line {
@@ -368,7 +368,7 @@ export function Hero() {
             linear-gradient(
               90deg,
               transparent,
-              rgba(225, 189, 118, .7),
+              rgba(216, 188, 229, .72),
               transparent
             );
         }
@@ -406,7 +406,7 @@ export function Hero() {
         .editorial-sanskrit {
           margin-bottom: 17px;
 
-          color: #e6c17a;
+          color: #d8bce5;
 
           font-family:
             "Noto Serif Devanagari",
@@ -420,7 +420,7 @@ export function Hero() {
 
           text-shadow:
             0 0 25px
-            rgba(229, 190, 112, .35);
+            rgba(216, 188, 229, .36);
         }
 
 
@@ -437,7 +437,7 @@ export function Hero() {
           margin-bottom: 30px;
 
           color:
-            rgba(251, 233, 198, .72);
+            rgba(255, 250, 245, .72);
 
           font-family:
             "DM Sans",
@@ -457,7 +457,7 @@ export function Hero() {
           height: 1px;
 
           background:
-            rgba(228, 188, 112, .65);
+            rgba(216, 188, 229, .65);
         }
 
 
@@ -495,7 +495,7 @@ export function Hero() {
 
           border:
             1px solid
-            rgba(226, 185, 106, .22);
+            rgba(216, 188, 229, .22);
 
           border-radius: 50%;
 
@@ -513,7 +513,7 @@ export function Hero() {
 
           border:
             1px dashed
-            rgba(226, 185, 106, .18);
+            rgba(216, 188, 229, .16);
 
           border-radius: 50%;
         }
@@ -529,12 +529,12 @@ export function Hero() {
           transform:
             translateX(-50%);
 
-          color: #e2ba6e;
+          color: #c4a9d7;
 
           font-size: 12px;
 
           background:
-            rgba(45, 9, 15, .55);
+            rgba(43, 32, 56, .55);
 
           padding: 0 8px;
         }
@@ -549,7 +549,7 @@ export function Hero() {
 
           margin: 0;
 
-          color: #fff0d1;
+          color: #fffaf5;
 
           font-family:
             "Cormorant Garamond",
@@ -591,7 +591,7 @@ export function Hero() {
           margin:
             20px 0 18px;
 
-          color: #dfb567;
+          color: #c4a9d7;
 
           font-family:
             "Great Vibes",
@@ -608,7 +608,7 @@ export function Hero() {
 
           text-shadow:
             0 0 30px
-            rgba(223,181,103,.35);
+            rgba(196,169,215,.38);
         }
 
 
@@ -627,7 +627,7 @@ export function Hero() {
 
           border:
             1px solid
-            rgba(231, 193, 120, .26);
+            rgba(216, 188, 229, .28);
 
           border-radius: 999px;
 
@@ -639,12 +639,12 @@ export function Hero() {
 
           box-shadow:
             inset 0 0 25px
-            rgba(225,185,108,.025);
+            rgba(216,188,229,.035);
         }
 
         .editorial-details span {
           color:
-            rgba(250, 232, 196, .84);
+            rgba(255, 250, 245, .86);
 
           font-family:
             "DM Sans",
@@ -661,7 +661,7 @@ export function Hero() {
           margin:
             0 12px;
 
-          color: #dfb568;
+          color: #c4a9d7;
 
           font-size: 6px;
         }
@@ -680,7 +680,7 @@ export function Hero() {
           margin-top: 13px;
 
           color:
-            rgba(249, 229, 191, .63);
+            rgba(255, 250, 245, .68);
 
           font-family:
             "DM Sans",
@@ -697,7 +697,7 @@ export function Hero() {
           width: 11px;
           height: 11px;
 
-          color: #dfb568;
+          color: #c4a9d7;
         }
 
 
@@ -710,7 +710,7 @@ export function Hero() {
             22px 0 0;
 
           color:
-            rgba(250, 232, 195, .78);
+            rgba(255, 250, 245, .80);
 
           font-family:
             "Cormorant Garamond",
@@ -748,7 +748,7 @@ export function Hero() {
           gap: 7px;
 
           color:
-            rgba(249, 230, 193, .55);
+            rgba(255, 250, 245, .58);
 
           font-family:
             "DM Sans",
@@ -767,7 +767,7 @@ export function Hero() {
           width: 17px;
           height: 17px;
 
-          color: #dfb568;
+          color: #c4a9d7;
         }
 
 
@@ -793,7 +793,7 @@ export function Hero() {
           gap: 9px;
 
           color:
-            rgba(249, 228, 187, .6);
+            rgba(255, 250, 245, .62);
 
           font-family:
             "DM Sans",
@@ -820,7 +820,7 @@ export function Hero() {
             linear-gradient(
               to bottom,
               transparent,
-              rgba(224,183,105,.55),
+              rgba(216,188,229,.58),
               transparent
             );
         }
@@ -847,7 +847,7 @@ export function Hero() {
 
           gap: 8px;
 
-          color: #dfb568;
+          color: #c4a9d7;
 
           opacity: .7;
         }
@@ -863,7 +863,7 @@ export function Hero() {
             linear-gradient(
               to bottom,
               transparent,
-              rgba(224,183,105,.5),
+              rgba(216,188,229,.52),
               transparent
             );
         }
@@ -923,10 +923,10 @@ export function Hero() {
             background:
               linear-gradient(
                 180deg,
-                rgba(9,2,5,.73),
-                rgba(42,8,14,.18) 34%,
-                rgba(9,2,5,.42) 55%,
-                rgba(7,1,4,.94) 100%
+                rgba(16,13,24,.76),
+                rgba(43,32,56,.18) 34%,
+                rgba(16,13,24,.48) 55%,
+                rgba(13,10,20,.96) 100%
               );
           }
 
@@ -1199,6 +1199,104 @@ export function Hero() {
             animation: none !important;
           }
 
+        }
+
+
+        /* =====================================================
+           DARK LAVENDER + OFF-WHITE WEDDING LUXURY LAYER
+        ===================================================== */
+        .editorial-hero{
+          background:
+            radial-gradient(circle at 50% 42%, rgba(216,188,229,.16), transparent 36%),
+            linear-gradient(135deg,#0b0810 0%,#171020 42%,#2b2038 72%,#100c17 100%);
+        }
+        .editorial-overlay{
+          background:
+            linear-gradient(180deg,rgba(16,13,24,.74),rgba(43,32,56,.16) 30%,rgba(43,32,56,.20) 52%,rgba(10,8,15,.88) 100%),
+            linear-gradient(90deg,rgba(16,13,24,.58),transparent 35%,transparent 65%,rgba(16,13,24,.58));
+        }
+        .editorial-grade{
+          background:
+            radial-gradient(ellipse at 50% 44%,rgba(216,188,229,.18),transparent 48%),
+            linear-gradient(90deg,rgba(43,32,56,.42),transparent 32%,transparent 68%,rgba(43,32,56,.42));
+          mix-blend-mode:screen;
+        }
+        .editorial-spotlight{
+          background:radial-gradient(circle,rgba(255,250,245,.17),rgba(216,188,229,.10) 30%,transparent 70%);
+          filter:blur(24px);
+        }
+        .editorial-frame{
+          border-color:rgba(255,250,245,.20);
+          box-shadow:inset 0 0 50px rgba(216,188,229,.035);
+        }
+        .editorial-frame::before{border-color:rgba(216,188,229,.14)}
+        .editorial-corner{border-color:rgba(216,188,229,.75)}
+        .editorial-orbit{
+          border-color:rgba(216,188,229,.30);
+          box-shadow:0 0 45px rgba(196,169,215,.08);
+        }
+        .editorial-orbit::before{border-color:rgba(255,250,245,.18)}
+        .editorial-orbit::after{
+          color:#fffaf5;
+          background:rgba(43,32,56,.72);
+          text-shadow:0 0 15px rgba(216,188,229,.65);
+        }
+        .editorial-name{
+          color:#fffaf5;
+          text-shadow:0 8px 42px rgba(0,0,0,.62),0 0 42px rgba(216,188,229,.12);
+        }
+        .editorial-ampersand{
+          color:#d8bce5;
+          text-shadow:0 0 18px rgba(216,188,229,.75),0 0 38px rgba(196,169,215,.35);
+        }
+        .editorial-details{
+          background:rgba(16,13,24,.42);
+          border-color:rgba(216,188,229,.30);
+          box-shadow:0 10px 35px rgba(0,0,0,.22),inset 0 0 25px rgba(216,188,229,.045);
+        }
+        .editorial-details b{color:#fffaf5}
+        .editorial-venue svg,.editorial-scroll svg{color:#d8bce5}
+        .editorial-particles i{
+          background:#fffaf5;
+          box-shadow:0 0 7px rgba(255,250,245,.9),0 0 18px rgba(216,188,229,.45);
+        }
+        .editorial-content::before{
+          content:"ॐ";
+          display:block;
+          position:absolute;
+          top:-72px;
+          left:50%;
+          transform:translateX(-50%);
+          color:#d8bce5;
+          font-family:"Noto Serif Devanagari","Nirmala UI",serif;
+          font-size:20px;
+          text-shadow:0 0 22px rgba(216,188,229,.55);
+          animation:omFloat 4s ease-in-out infinite;
+        }
+        .editorial-content{filter:drop-shadow(0 16px 34px rgba(0,0,0,.28))}
+        @keyframes omFloat{0%,100%{transform:translateX(-50%) translateY(0);opacity:.72}50%{transform:translateX(-50%) translateY(-5px);opacity:1}}
+        .editorial-top span,.editorial-side-spark span{color:#fffaf5;text-shadow:0 0 14px rgba(216,188,229,.7)}
+        .editorial-top-line{background:linear-gradient(90deg,transparent,rgba(216,188,229,.8),transparent)}
+        .editorial-scroll{color:rgba(255,250,245,.64)}
+        .editorial-side-spark{color:#d8bce5}
+        .editorial-hero::before,.editorial-hero::after{
+          content:"";
+          position:absolute;
+          pointer-events:none;
+          z-index:4;
+          width:260px;height:260px;
+          border:1px solid rgba(216,188,229,.10);
+          border-radius:50%;
+          filter:blur(.2px);
+        }
+        .editorial-hero::before{left:-150px;top:18%;box-shadow:0 0 0 28px rgba(216,188,229,.025),0 0 0 56px rgba(216,188,229,.018)}
+        .editorial-hero::after{right:-150px;bottom:14%;box-shadow:0 0 0 28px rgba(216,188,229,.025),0 0 0 56px rgba(216,188,229,.018)}
+        @media(max-width:700px){
+          .editorial-content::before{top:-48px;font-size:16px}
+          .editorial-hero::before,.editorial-hero::after{width:170px;height:170px}
+        }
+        @media(prefers-reduced-motion:reduce){
+          .editorial-content::before{animation:none}
         }
 
       `}</style>

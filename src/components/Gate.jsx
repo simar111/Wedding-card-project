@@ -61,15 +61,15 @@ export function Gate({ onOpen }) {
           align-items: center;
           justify-content: center;
 
-          color: #f5dfb1;
+          color: #f4edf5;
 
           background:
             radial-gradient(
               circle at 50% 48%,
-              rgba(133, 45, 48, 0.46) 0%,
-              rgba(76, 19, 25, 0.3) 28%,
-              rgba(28, 5, 10, 0.8) 68%,
-              #090103 100%
+              rgba(126, 91, 153, 0.42) 0%,
+              rgba(75, 50, 96, 0.30) 28%,
+              rgba(16, 13, 24, 0.82) 68%,
+              #100d18 100%
             );
 
           font-family:
@@ -162,8 +162,8 @@ export function Gate({ onOpen }) {
           background:
             radial-gradient(
               circle,
-              rgba(238,197,117,.16) 0%,
-              rgba(195,126,55,.09) 28%,
+              rgba(204,177,226,.18) 0%,
+              rgba(172,137,199,.10) 28%,
               transparent 70%
             );
 
@@ -222,10 +222,10 @@ export function Gate({ onOpen }) {
           background:
             repeating-conic-gradient(
               from 0deg,
-              rgba(221,180,101,.8) 0deg,
+              rgba(203,174,225,.8) 0deg,
               transparent 2deg,
               transparent 11deg,
-              rgba(221,180,101,.65) 12deg,
+              rgba(203,174,225,.65) 12deg,
               transparent 14deg
             );
 
@@ -256,7 +256,7 @@ export function Gate({ onOpen }) {
 
           border:
             1px solid
-            rgba(224,184,107,.25);
+            rgba(203,176,222,.25);
 
           border-radius: 50%;
         }
@@ -269,7 +269,7 @@ export function Gate({ onOpen }) {
 
           border:
             1px dashed
-            rgba(224,184,107,.2);
+            rgba(203,176,222,.20);
 
           border-radius: 50%;
         }
@@ -295,7 +295,7 @@ export function Gate({ onOpen }) {
 
           border:
             1px solid
-            rgba(222,182,104,.2);
+            rgba(204,176,225,.2);
 
           border-radius: 50%;
 
@@ -311,7 +311,7 @@ export function Gate({ onOpen }) {
 
           border:
             1px solid
-            rgba(222,182,104,.12);
+            rgba(204,176,225,.12);
 
           border-radius: 50%;
         }
@@ -354,11 +354,11 @@ export function Gate({ onOpen }) {
 
           border-radius: 50%;
 
-          background: #e5c17c;
+          background: #cdb6dc;
 
           box-shadow:
-            0 0 7px rgba(229,193,124,.95),
-            0 0 16px rgba(229,193,124,.35);
+            0 0 7px rgba(219,190,234,.95),
+            0 0 16px rgba(194,157,216,.35);
         }
 
 
@@ -383,7 +383,7 @@ export function Gate({ onOpen }) {
 
           gap: 14px;
 
-          color: #dcb56c;
+          color: #c8add9;
         }
 
         .royal-top span {
@@ -434,7 +434,7 @@ export function Gate({ onOpen }) {
         .royal-sanskrit {
           margin-bottom: 15px;
 
-          color: #dfba70;
+          color: #d0b6df;
 
           font-family:
             "Noto Serif Devanagari",
@@ -448,7 +448,7 @@ export function Gate({ onOpen }) {
 
           text-shadow:
             0 0 20px
-            rgba(222,181,105,.35);
+            rgba(204,174,225,.35);
         }
 
 
@@ -466,7 +466,7 @@ export function Gate({ onOpen }) {
             linear-gradient(
               90deg,
               transparent,
-              #dcb36a,
+              #c4a9d7,
               transparent
             );
         }
@@ -489,7 +489,7 @@ export function Gate({ onOpen }) {
         .royal-names h1 {
           margin: 0;
 
-          color: #f8e7c3;
+          color: #fffaf5;
 
           font-family:
             "Cormorant Garamond",
@@ -518,7 +518,7 @@ export function Gate({ onOpen }) {
         }
 
         .royal-and {
-          color: #d9af62;
+          color: #b79acb;
 
           font-family:
             "Great Vibes",
@@ -562,7 +562,7 @@ export function Gate({ onOpen }) {
         }
 
         .royal-date b {
-          color: #d9b067;
+          color: #bda3cf;
 
           font-size: 6px;
         }
@@ -599,13 +599,13 @@ export function Gate({ onOpen }) {
           background:
             linear-gradient(
               180deg,
-              #e0b45f,
-              #815021
+              #a88abf,
+              #6b5575
             );
 
           box-shadow:
             0 5px 20px
-            rgba(226,177,83,.25);
+            rgba(190,154,214,.25);
         }
 
         .diya-flame {
@@ -627,16 +627,16 @@ export function Gate({ onOpen }) {
           background:
             linear-gradient(
               135deg,
-              #fff1bd,
-              #e6a741
+              #fff7fb,
+              #b99bd0
             );
 
           box-shadow:
             0 0 10px
-            rgba(255,207,102,.9),
+            rgba(239,215,246,.9),
 
             0 0 35px
-            rgba(255,173,55,.55);
+            rgba(191,149,218,.45);
 
           animation:
             flameMove 1.1s
@@ -699,7 +699,7 @@ export function Gate({ onOpen }) {
               rgba(68,15,21,.52)
             );
 
-          color: #f4ddb0;
+          color: #f2e9f4;
 
           font-family:
             "DM Sans",
@@ -727,11 +727,11 @@ export function Gate({ onOpen }) {
         }
 
         .royal-enter svg {
-          color: #dfb76b;
+          color: #cbb0dc;
         }
 
         .royal-enter:hover {
-          border-color: #ebc983;
+          border-color: #e1d0ea;
 
           box-shadow:
             0 15px 45px
@@ -762,7 +762,7 @@ export function Gate({ onOpen }) {
             linear-gradient(
               90deg,
               transparent,
-              rgba(255,245,214,.3),
+              rgba(255,247,252,.35),
               transparent
             );
 
@@ -806,23 +806,23 @@ export function Gate({ onOpen }) {
             linear-gradient(
               90deg,
 
-              #170307 0%,
+              #1b1526 0%,
 
-              #3b0a12 10%,
+              #2b2038 10%,
 
-              #68151f 24%,
+              #4f3a60 24%,
 
-              #48101a 39%,
+              #382a49 39%,
 
-              #721a25 52%,
+              #594267 52%,
 
-              #3e0a13 67%,
+              #31243f 67%,
 
-              #64131f 82%,
+              #463355 82%,
 
-              #26050b 94%,
+              #211a2d 94%,
 
-              #100204 100%
+              #171321 100%
             );
 
           box-shadow:
@@ -958,13 +958,13 @@ export function Gate({ onOpen }) {
           background:
             radial-gradient(
               circle,
-              rgba(226,183,101,.09),
+              rgba(203,176,225,.10),
               transparent 68%
             );
 
           box-shadow:
             0 0 35px
-            rgba(220,178,100,.06);
+            rgba(200,170,220,.08);
         }
 
         .palace-door-left .door-medallion {
@@ -1041,8 +1041,8 @@ export function Gate({ onOpen }) {
           background:
             radial-gradient(
               circle,
-              #f1d08a,
-              #8d632c
+              #e8d8ee,
+              #80658f
             );
 
           box-shadow:
@@ -1075,15 +1075,15 @@ export function Gate({ onOpen }) {
             linear-gradient(
               to bottom,
               transparent,
-              rgba(218,177,101,.7) 15%,
-              rgba(239,205,137,.9) 50%,
-              rgba(218,177,101,.7) 85%,
+              rgba(204,177,225,.7) 15%,
+              rgba(237,221,242,.9) 50%,
+              rgba(204,177,225,.7) 85%,
               transparent
             );
 
           box-shadow:
             0 0 18px
-            rgba(220,178,100,.2);
+            rgba(200,170,220,.2);
         }
 
         .palace-door-left .door-frame {
@@ -1108,8 +1108,8 @@ export function Gate({ onOpen }) {
             linear-gradient(
               110deg,
               transparent 40%,
-              rgba(255,225,169,.05) 48%,
-              rgba(255,225,169,.13) 51%,
+              rgba(239,225,248,.05) 48%,
+              rgba(239,225,248,.13) 51%,
               transparent 60%
             );
 
@@ -1164,11 +1164,11 @@ export function Gate({ onOpen }) {
             radial-gradient(
               circle,
 
-              rgba(255,249,222,.98) 0%,
+              rgba(255,250,247,.98) 0%,
 
-              rgba(239,204,133,.55) 18%,
+              rgba(220,198,232,.55) 18%,
 
-              rgba(221,176,93,.18) 42%,
+              rgba(184,151,207,.18) 42%,
 
               transparent 72%
             );
@@ -1236,7 +1236,7 @@ export function Gate({ onOpen }) {
             linear-gradient(
               to bottom,
               transparent,
-              rgba(255,238,190,.55),
+              rgba(244,232,248,.55),
               transparent
             );
         }
@@ -1301,7 +1301,7 @@ export function Gate({ onOpen }) {
             rgba(32,6,11,.52);
 
           color:
-            rgba(241,215,165,.85);
+            rgba(238,225,242,.88);
 
           backdrop-filter:
             blur(12px);
@@ -1332,7 +1332,7 @@ export function Gate({ onOpen }) {
           gap: 13px;
 
           color:
-            rgba(238,210,157,.4);
+            rgba(228,211,234,.45);
 
           font-family:
             "DM Sans",
@@ -1348,7 +1348,7 @@ export function Gate({ onOpen }) {
           height: 1px;
 
           background:
-            rgba(218,176,99,.3);
+            rgba(203,175,222,.3);
         }
 
 
@@ -1568,14 +1568,385 @@ export function Gate({ onOpen }) {
 
         }
 
-      `}</style>
+
+        /* =====================================================
+           DARK LAVENDER × OFF-WHITE — AESTHETIC OVERRIDES
+        ===================================================== */
+
+        .royal-gate {
+          background:
+            radial-gradient(circle at 50% 42%, rgba(151, 119, 180, .24) 0%, rgba(91, 67, 113, .18) 28%, rgba(16, 13, 24, .88) 72%),
+            linear-gradient(135deg, #0e0b15, #1b1424 55%, #0c0a12);
+          color: #f4edf5;
+        }
+
+        .royal-bg::before,
+        .royal-bg::after {
+          content: "";
+          position: absolute;
+          width: 42vw;
+          height: 42vw;
+          max-width: 560px;
+          max-height: 560px;
+          border-radius: 50%;
+          filter: blur(75px);
+          opacity: .20;
+          pointer-events: none;
+          animation: lavenderFloat 9s ease-in-out infinite;
+        }
+
+        .royal-bg::before {
+          left: -12vw;
+          top: 12vh;
+          background: #9d78ba;
+        }
+
+        .royal-bg::after {
+          right: -12vw;
+          bottom: 5vh;
+          background: #c9a9d8;
+          animation-delay: -4s;
+        }
+
+        @keyframes lavenderFloat {
+          0%, 100% { transform: translate3d(0, 0, 0) scale(1); }
+          50% { transform: translate3d(2vw, -2vh, 0) scale(1.08); }
+        }
+
+        .royal-center-glow {
+          background:
+            radial-gradient(circle,
+              rgba(230, 211, 239, .20) 0%,
+              rgba(185, 151, 208, .11) 30%,
+              transparent 70%);
+          filter: blur(28px);
+        }
+
+        .royal-mandala {
+          opacity: .18;
+          background:
+            repeating-conic-gradient(
+              from 0deg,
+              rgba(216, 190, 230, .70) 0deg,
+              transparent 2deg,
+              transparent 11deg,
+              rgba(216, 190, 230, .52) 12deg,
+              transparent 14deg
+            );
+          filter: drop-shadow(0 0 22px rgba(183, 154, 203, .10));
+        }
+
+        .royal-inner-circle {
+          box-shadow:
+            0 0 80px rgba(183, 154, 203, .08),
+            inset 0 0 45px rgba(255,255,255,.025);
+        }
+
+        .royal-particles i {
+          width: 3px;
+          height: 3px;
+          background: #e8d9ed;
+          box-shadow:
+            0 0 8px rgba(232,217,237,.95),
+            0 0 18px rgba(190,157,215,.45);
+        }
+
+        .royal-content {
+          filter: drop-shadow(0 18px 45px rgba(0,0,0,.18));
+        }
+
+        .royal-names h1 {
+          color: #fffaf5;
+          text-shadow:
+            0 4px 30px rgba(0,0,0,.55),
+            0 0 35px rgba(205,176,222,.16);
+        }
+
+        .royal-and {
+          color: #d8bce5;
+          text-shadow: 0 0 30px rgba(195,160,217,.42);
+        }
+
+        .royal-enter {
+          border-color: rgba(215,190,229,.55);
+          background:
+            linear-gradient(135deg,
+              rgba(205,176,222,.18),
+              rgba(66,48,83,.55));
+          color: #fffafc;
+          box-shadow:
+            0 15px 45px rgba(0,0,0,.38),
+            inset 0 0 25px rgba(225,207,235,.05),
+            0 0 0 1px rgba(255,255,255,.025);
+          transition:
+            transform .35s cubic-bezier(.22,1,.36,1),
+            box-shadow .35s ease,
+            border-color .35s ease;
+        }
+
+        .royal-enter:hover {
+          border-color: #e6d5ec;
+          box-shadow:
+            0 18px 55px rgba(0,0,0,.45),
+            0 0 38px rgba(195,160,217,.20),
+            inset 0 0 25px rgba(232,217,239,.08);
+        }
+
+        .royal-enter svg {
+          color: #e1cce9;
+          animation: tinySparkle 2.2s ease-in-out infinite;
+        }
+
+        @keyframes tinySparkle {
+          0%, 100% { transform: rotate(0deg) scale(1); opacity: .75; }
+          50% { transform: rotate(12deg) scale(1.18); opacity: 1; }
+        }
+
+        .royal-shimmer {
+          background:
+            linear-gradient(
+              90deg,
+              transparent,
+              rgba(255,250,253,.38),
+              transparent
+            );
+        }
+
+        .palace-door {
+          background:
+            radial-gradient(circle at 50% 45%, rgba(121,91,145,.22), transparent 42%),
+            linear-gradient(
+              90deg,
+              #0f0b16 0%,
+              #241b30 16%,
+              #342541 35%,
+              #2a2036 52%,
+              #3d2c4b 68%,
+              #241a30 86%,
+              #100c16 100%
+            );
+          box-shadow:
+            inset 0 0 120px rgba(0,0,0,.72),
+            inset 0 0 35px rgba(220,198,231,.035);
+          transform-style: preserve-3d;
+        }
+
+        .door-jaali {
+          opacity: .16;
+          background:
+            repeating-linear-gradient(
+              45deg,
+              transparent 0,
+              transparent 22px,
+              rgba(221,202,232,.30) 23px,
+              transparent 24px
+            ),
+            repeating-linear-gradient(
+              -45deg,
+              transparent 0,
+              transparent 22px,
+              rgba(221,202,232,.30) 23px,
+              transparent 24px
+            );
+        }
+
+        .door-medallion {
+          border-color: rgba(218,198,228,.38);
+          background:
+            radial-gradient(circle, rgba(216,190,230,.12), transparent 68%);
+          box-shadow:
+            0 0 40px rgba(190,157,215,.10);
+          animation: medallionPulse 4s ease-in-out infinite;
+        }
+
+        @keyframes medallionPulse {
+          0%, 100% { box-shadow: 0 0 30px rgba(190,157,215,.06); }
+          50% { box-shadow: 0 0 48px rgba(190,157,215,.16); }
+        }
+
+        .door-handle {
+          background:
+            radial-gradient(circle, #eee0f1, #9a7aaa);
+          box-shadow:
+            0 0 12px rgba(222,205,232,.45);
+        }
+
+        .door-frame {
+          background:
+            linear-gradient(
+              to bottom,
+              transparent,
+              rgba(210,190,224,.60) 15%,
+              rgba(242,231,245,.88) 50%,
+              rgba(210,190,224,.60) 85%,
+              transparent
+            );
+          box-shadow: 0 0 20px rgba(200,172,220,.18);
+        }
+
+        .royal-sound {
+          border-color: rgba(218,198,230,.25);
+          background: rgba(29,22,39,.55);
+          color: rgba(242,232,245,.9);
+          box-shadow: 0 8px 28px rgba(0,0,0,.18);
+          transition: all .3s ease;
+        }
+
+        .royal-sound:hover {
+          transform: translateY(-2px);
+          border-color: rgba(230,215,237,.5);
+          background: rgba(55,41,68,.62);
+          box-shadow: 0 12px 35px rgba(0,0,0,.30);
+        }
+
+        .royal-reveal {
+          background:
+            radial-gradient(circle,
+              rgba(255,252,249,.98) 0%,
+              rgba(226,211,234,.60) 18%,
+              rgba(189,157,211,.20) 43%,
+              transparent 72%);
+        }
+
+        .royal-vignette {
+          background:
+            radial-gradient(
+              ellipse at center,
+              transparent 24%,
+              rgba(0,0,0,.16) 58%,
+              rgba(7,5,10,.78) 100%
+            );
+        }
+
+        @media (max-width: 700px) {
+          .royal-bg::before,
+          .royal-bg::after {
+            width: 70vw;
+            height: 70vw;
+            filter: blur(60px);
+          }
+
+          .royal-mandala {
+            opacity: .11;
+          }
+
+          .royal-content {
+            width: 94vw;
+          }
+
+          .royal-names h1 {
+            text-shadow:
+              0 3px 22px rgba(0,0,0,.5),
+              0 0 25px rgba(205,176,222,.13);
+          }
+        }
+
+      /* Cute Indian wedding decor */
+      .royal-gate{background:radial-gradient(circle at 50% 32%,rgba(216,188,229,.18),transparent 42%),radial-gradient(circle at 10% 80%,rgba(196,169,215,.12),transparent 30%),radial-gradient(circle at 90% 20%,rgba(255,250,245,.07),transparent 25%),linear-gradient(145deg,#0d0914,#171020 40%,#2b2038 72%,#100b17)}
+      .royal-bg::before{background:radial-gradient(circle,rgba(216,188,229,.18),transparent 68%);filter:blur(20px);animation:lavFloat 8s ease-in-out infinite}
+      .royal-bg::after{background:radial-gradient(circle,rgba(255,250,245,.10),transparent 68%);filter:blur(28px);animation:lavFloat 11s ease-in-out infinite reverse}
+      @keyframes lavFloat{0%,100%{transform:translate(-2%,-1%) scale(1);opacity:.65}50%{transform:translate(3%,2%) scale(1.08);opacity:1}}
+      .royal-content{filter:drop-shadow(0 18px 35px rgba(0,0,0,.35))}
+      .royal-content::before{content:"ॐ";position:absolute;left:50%;top:-72px;transform:translateX(-50%);color:#d8bce5;font-family:Georgia,serif;font-size:1.55rem;text-shadow:0 0 18px rgba(216,188,229,.55);animation:omFloat 4s ease-in-out infinite;pointer-events:none}
+      @keyframes omFloat{0%,100%{transform:translateX(-50%) translateY(0);opacity:.7}50%{transform:translateX(-50%) translateY(-5px);opacity:1}}
+      .mandala{filter:drop-shadow(0 0 20px rgba(196,169,215,.3))}
+      .inner-circle{background:radial-gradient(circle at 50% 35%,rgba(255,250,245,.14),transparent 45%),linear-gradient(145deg,rgba(216,188,229,.10),rgba(196,169,215,.025));border-color:rgba(216,188,229,.58)!important;box-shadow:0 0 0 1px rgba(255,250,245,.08),0 0 42px rgba(196,169,215,.18),inset 0 0 35px rgba(196,169,215,.08)}
+      .sanskrit{color:#d8bce5!important;text-shadow:0 0 20px rgba(216,188,229,.35)}
+      .names{color:#fffaf5!important;text-shadow:0 2px 0 rgba(43,32,56,.8),0 0 24px rgba(255,250,245,.18)}
+      .ampersand{color:#d8bce5!important;text-shadow:0 0 14px rgba(216,188,229,.7),0 0 28px rgba(196,169,215,.3)}
+      .date,.city{color:rgba(255,250,245,.88)!important}
+      .particle{background:#fffaf5!important;box-shadow:0 0 7px rgba(255,250,245,.8),0 0 16px rgba(216,188,229,.4)!important}
+      .cute-indian-decor{position:absolute;inset:0;z-index:2;pointer-events:none;overflow:hidden}
+      .decor-dot{position:absolute;width:7px;height:7px;border-radius:50%;background:#fffaf5;box-shadow:0 0 12px rgba(255,250,245,.8),0 0 22px rgba(216,188,229,.4);animation:dotTwinkle 3.4s ease-in-out infinite}
+      .dot-a{left:8%;top:28%}.dot-b{left:15%;top:64%;animation-delay:1.2s}.dot-c{right:9%;top:34%;animation-delay:.8s}.dot-d{right:16%;top:70%;animation-delay:1.8s}
+      @keyframes dotTwinkle{0%,100%{transform:scale(.65);opacity:.25}50%{transform:scale(1.3);opacity:.9}}
+      .decor-petal,.decor-leaf{position:absolute;color:rgba(216,188,229,.75);font-family:Georgia,serif;text-shadow:0 0 15px rgba(216,188,229,.45);animation:petalFloat 7s ease-in-out infinite}.decor-petal{font-size:1.25rem}.decor-leaf{font-size:2.2rem;opacity:.4}
+      .petal-a{left:12%;top:18%}.petal-b{left:7%;bottom:20%;animation-delay:1.8s}.petal-c{right:12%;top:16%;animation-delay:3s}.petal-d{right:8%;bottom:22%;animation-delay:4.2s}.leaf-a{left:2%;top:47%;transform:rotate(-28deg);animation-delay:2s}.leaf-b{right:2%;top:50%;transform:scaleX(-1) rotate(28deg);animation-delay:3.4s}
+      @keyframes petalFloat{0%,100%{transform:translateY(0) rotate(0);opacity:.35}50%{transform:translateY(-12px) rotate(7deg);opacity:.85}}
+      .decor-arch{position:absolute;width:min(34vw,430px);height:min(68vh,700px);border:1px solid rgba(216,188,229,.14);border-bottom:0;border-radius:50% 50% 0 0;top:18%;opacity:.75;box-shadow:inset 0 12px 30px rgba(216,188,229,.025)}.arch-left{left:-17%}.arch-right{right:-17%}
+      .enter-button{background:linear-gradient(135deg,#fffaf5,#d8bce5)!important;color:#2b2038!important;border:1px solid rgba(255,250,245,.8)!important;box-shadow:0 10px 35px rgba(0,0,0,.28),0 0 30px rgba(196,169,215,.2)!important}.enter-button:hover{transform:translateY(-3px) scale(1.025)!important;box-shadow:0 16px 42px rgba(0,0,0,.34),0 0 38px rgba(216,188,229,.35)!important}
+      .sound-toggle{background:rgba(255,250,245,.06)!important;border-color:rgba(216,188,229,.26)!important;color:#fffaf5!important;backdrop-filter:blur(14px)}.sound-toggle:hover{background:rgba(216,188,229,.12)!important;border-color:rgba(216,188,229,.52)!important}
+      .palace-door{background:radial-gradient(circle at 50% 48%,rgba(216,188,229,.12),transparent 25%),linear-gradient(160deg,#181020,#30213d 48%,#21172d)!important;border-color:rgba(216,188,229,.38)!important;box-shadow:inset 0 0 0 1px rgba(255,250,245,.06),inset 0 0 60px rgba(196,169,215,.08),0 0 35px rgba(0,0,0,.3)}
+      .jaali{opacity:.27!important;background-image:radial-gradient(circle at 50% 50%,rgba(255,250,245,.17) 0 1px,transparent 1.5px)!important;background-size:18px 18px!important}
+      .door-medallion{background:radial-gradient(circle,#fffaf5 0%,#d8bce5 35%,#594267 72%,#2b2038 100%)!important;border-color:rgba(255,250,245,.7)!important;box-shadow:0 0 0 5px rgba(216,188,229,.08),0 0 30px rgba(216,188,229,.32)!important;animation:medPulse 3.2s ease-in-out infinite}
+      @keyframes medPulse{0%,100%{box-shadow:0 0 0 5px rgba(216,188,229,.07),0 0 22px rgba(216,188,229,.18)}50%{box-shadow:0 0 0 8px rgba(216,188,229,.11),0 0 36px rgba(216,188,229,.38)}}
+      .door-handle{background:#fffaf5!important;box-shadow:0 0 14px rgba(255,250,245,.38)!important}
+      .royal-gate::after{content:"";position:absolute;inset:18px;border:1px solid rgba(255,250,245,.08);border-radius:26px;pointer-events:none;z-index:30}
+      @media(max-width:600px){.royal-gate::after{inset:10px;border-radius:18px}.royal-content::before{top:-54px;font-size:1.25rem}.decor-arch{width:58vw;height:55vh;top:22%}.arch-left{left:-29%}.arch-right{right:-29%}.decor-leaf{font-size:1.6rem}}
+      @media(prefers-reduced-motion:reduce){.decor-dot,.decor-petal,.decor-leaf,.decor-arch,.royal-bg::before,.royal-bg::after,.door-medallion,.royal-content::before{animation:none!important}}
+
+
+      /* ===== Premium Indian Wedding finishing layer ===== */
+      .royal-gate{
+        background:
+          radial-gradient(circle at 50% 30%,rgba(216,188,229,.18),transparent 38%),
+          radial-gradient(circle at 8% 78%,rgba(196,169,215,.12),transparent 28%),
+          radial-gradient(circle at 92% 18%,rgba(255,250,245,.08),transparent 26%),
+          linear-gradient(145deg,#0b0810 0%,#15101d 34%,#24192f 68%,#0e0a15 100%);
+      }
+      .royal-bg::before{background:radial-gradient(circle,rgba(216,188,229,.18),transparent 68%);filter:blur(20px);animation:lavFloat 9s ease-in-out infinite}
+      .royal-bg::after{background:radial-gradient(circle,rgba(255,250,245,.09),transparent 68%);filter:blur(32px);animation:lavFloat 12s ease-in-out infinite reverse}
+      @keyframes lavFloat{0%,100%{transform:translate(-2%,-1%) scale(1);opacity:.55}50%{transform:translate(3%,2%) scale(1.08);opacity:1}}
+      .royal-vignette{background:radial-gradient(circle at 50% 42%,transparent 30%,rgba(5,3,8,.28) 100%)!important}
+      .royal-grain{opacity:.045!important}
+      .royal-content{filter:drop-shadow(0 20px 42px rgba(0,0,0,.38))}
+      .royal-content::before{content:"ॐ";position:absolute;left:50%;top:-66px;transform:translateX(-50%);color:#d8bce5;font-family:Georgia,serif;font-size:1.45rem;text-shadow:0 0 18px rgba(216,188,229,.6);animation:omFloat 4s ease-in-out infinite;pointer-events:none}
+      @keyframes omFloat{0%,100%{transform:translateX(-50%) translateY(0);opacity:.62}50%{transform:translateX(-50%) translateY(-5px);opacity:1}}
+      .royal-mandala{filter:drop-shadow(0 0 22px rgba(196,169,215,.32))}
+      .royal-inner{background:radial-gradient(circle at 50% 35%,rgba(255,250,245,.13),transparent 45%),linear-gradient(145deg,rgba(216,188,229,.09),rgba(196,169,215,.025));border-color:rgba(216,188,229,.55)!important;box-shadow:0 0 0 1px rgba(255,250,245,.07),0 0 42px rgba(196,169,215,.18),inset 0 0 35px rgba(196,169,215,.08)}
+      .royal-sanskrit{color:#d8bce5!important;text-shadow:0 0 20px rgba(216,188,229,.36);letter-spacing:.16em}
+      .royal-names h1{color:#fffaf5!important;text-shadow:0 3px 0 rgba(43,32,56,.85),0 0 26px rgba(255,250,245,.18)}
+      .royal-and{color:#d8bce5!important;text-shadow:0 0 14px rgba(216,188,229,.72),0 0 30px rgba(196,169,215,.32)}
+      .royal-date,.royal-city{color:rgba(255,250,245,.88)!important}
+      .royal-date::before,.royal-date::after{background:linear-gradient(90deg,transparent,rgba(216,188,229,.72),transparent)!important}
+      .particle{background:#fffaf5!important;box-shadow:0 0 7px rgba(255,250,245,.82),0 0 17px rgba(216,188,229,.42)!important}
+
+      .cute-indian-decor{position:absolute;inset:0;z-index:2;pointer-events:none;overflow:hidden}
+      .decor-dot{position:absolute;width:6px;height:6px;border-radius:50%;background:#fffaf5;box-shadow:0 0 12px rgba(255,250,245,.8),0 0 22px rgba(216,188,229,.4);animation:dotTwinkle 3.5s ease-in-out infinite}
+      .dot-a{left:8%;top:28%}.dot-b{left:15%;top:64%;animation-delay:1.2s}.dot-c{right:9%;top:34%;animation-delay:.8s}.dot-d{right:16%;top:70%;animation-delay:1.8s}
+      @keyframes dotTwinkle{0%,100%{transform:scale(.65);opacity:.22}50%{transform:scale(1.35);opacity:.92}}
+      .decor-petal,.decor-leaf{position:absolute;color:rgba(216,188,229,.76);font-family:Georgia,serif;text-shadow:0 0 16px rgba(216,188,229,.45);animation:petalFloat 7s ease-in-out infinite}
+      .decor-petal{font-size:1.2rem}.decor-leaf{font-size:2.1rem;opacity:.38}
+      .petal-a{left:12%;top:18%}.petal-b{left:7%;bottom:20%;animation-delay:1.8s}.petal-c{right:12%;top:16%;animation-delay:3s}.petal-d{right:8%;bottom:22%;animation-delay:4.2s}.leaf-a{left:2%;top:47%;transform:rotate(-28deg);animation-delay:2s}.leaf-b{right:2%;top:50%;transform:scaleX(-1) rotate(28deg);animation-delay:3.4s}
+      @keyframes petalFloat{0%,100%{transform:translateY(0) rotate(0);opacity:.3}50%{transform:translateY(-12px) rotate(7deg);opacity:.85}}
+      .decor-arch{position:absolute;width:min(34vw,430px);height:min(68vh,700px);border:1px solid rgba(216,188,229,.13);border-bottom:0;border-radius:50% 50% 0 0;top:18%;opacity:.72;box-shadow:inset 0 12px 30px rgba(216,188,229,.025)}
+      .arch-left{left:-17%}.arch-right{right:-17%}
+
+      .royal-enter{position:relative;overflow:hidden;border-color:rgba(255,250,245,.55)!important;background:linear-gradient(135deg,#fffaf5 0%,#ead9ef 52%,#c4a9d7 100%)!important;color:#2b2038!important;box-shadow:0 12px 34px rgba(0,0,0,.3),0 0 0 1px rgba(216,188,229,.25),0 0 32px rgba(196,169,215,.2)!important}
+      .royal-enter::before{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 30%,rgba(255,255,255,.6) 50%,transparent 70%);transform:translateX(-120%);transition:transform .7s ease}
+      .royal-enter:hover::before{transform:translateX(120%)}
+      .royal-enter:hover{transform:translateY(-3px) scale(1.025);box-shadow:0 17px 44px rgba(0,0,0,.36),0 0 42px rgba(216,188,229,.34)!important}
+      .royal-enter svg{color:#594267!important;animation:tinySparkle 2.4s ease-in-out infinite}
+
+      .royal-sound{background:rgba(255,250,245,.055)!important;border-color:rgba(216,188,229,.24)!important;color:#fffaf5!important;backdrop-filter:blur(16px)}
+      .royal-sound:hover{background:rgba(216,188,229,.12)!important;border-color:rgba(216,188,229,.5)!important;box-shadow:0 0 24px rgba(196,169,215,.18)}
+
+      .royal-door{background:radial-gradient(circle at 50% 46%,rgba(216,188,229,.11),transparent 25%),linear-gradient(160deg,#17101f 0%,#30213d 48%,#21172d 100%)!important;border-color:rgba(216,188,229,.35)!important;box-shadow:inset 0 0 0 1px rgba(255,250,245,.055),inset 0 0 65px rgba(196,169,215,.08),0 0 35px rgba(0,0,0,.32)}
+      .royal-door::before{border-color:rgba(216,188,229,.2)!important;box-shadow:inset 0 0 30px rgba(216,188,229,.05)}
+      .door-jaali{opacity:.23!important;background-image:radial-gradient(circle at 50% 50%,rgba(255,250,245,.18) 0 1px,transparent 1.5px)!important;background-size:18px 18px!important}
+      .door-medallion{background:radial-gradient(circle,#fffaf5 0%,#d8bce5 35%,#594267 72%,#2b2038 100%)!important;border-color:rgba(255,250,245,.68)!important;box-shadow:0 0 0 5px rgba(216,188,229,.08),0 0 30px rgba(216,188,229,.3)!important}
+      .door-handle{background:#fffaf5!important;box-shadow:0 0 14px rgba(255,250,245,.38)!important}
+      .royal-gate::after{content:"";position:absolute;inset:18px;border:1px solid rgba(255,250,245,.075);border-radius:26px;pointer-events:none;z-index:30}
+
+      @media(max-width:600px){
+        .royal-gate::after{inset:10px;border-radius:18px}
+        .royal-content::before{top:-52px;font-size:1.2rem}
+        .decor-arch{width:58vw;height:55vh;top:22%}
+        .arch-left{left:-29%}.arch-right{right:-29%}.decor-leaf{font-size:1.55rem}
+      }
+      @media(prefers-reduced-motion:reduce){
+        .decor-dot,.decor-petal,.decor-leaf,.decor-arch,.royal-bg::before,.royal-bg::after,.door-medallion,.royal-content::before,.royal-enter svg{animation:none!important}
+      }
+
+      `}
+</style>
 
 
       {/* =====================================================
           BACKGROUND
       ===================================================== */}
 
-      <div className="royal-bg" />
+      <div className="cute-indian-decor" aria-hidden="true"><span className="decor-dot dot-a"/><span className="decor-dot dot-b"/><span className="decor-dot dot-c"/><span className="decor-dot dot-d"/><span className="decor-petal petal-a">✦</span><span className="decor-petal petal-b">✧</span><span className="decor-petal petal-c">✦</span><span className="decor-petal petal-d">✧</span><span className="decor-leaf leaf-a">❧</span><span className="decor-leaf leaf-b">❧</span><span className="decor-arch arch-left"/><span className="decor-arch arch-right"/></div><div className="royal-bg" />
 
       <div className="royal-center-glow" />
 
